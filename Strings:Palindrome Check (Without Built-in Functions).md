@@ -1,5 +1,6 @@
 # Strings-Palindrome Check in Python (Without Built-in Functions)
-
+## Name: GEETHU R
+## Register No.: 212224040089
 ## 🎯 Aim
 To write a Python program to check whether the string `"google"` is a **palindrome** or not, without using built-in palindrome checking functions.
 
@@ -12,9 +13,18 @@ To write a Python program to check whether the string `"google"` is a **palindro
 4. Execute the program.
 
 ## 🧾 Program
+~~~
+s = "google"
+rev = s[::-1]
 
-Add code here
+if s == rev:
+    print("The string is a palindrome.")
+else:
+    print("The string is not a palindrome.")
+~~~
 
 ## Output
+![palindrome 3](https://github.com/user-attachments/assets/b24e90c3-efb1-4be6-9b6f-a2405971d657)
 
 ## Result
+Thus the program has been executed successfully.
